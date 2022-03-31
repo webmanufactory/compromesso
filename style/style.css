@@ -142,7 +142,7 @@ img {
   width: 6px;
   height: 10px;
   line-height: 0;
-  background: url(/img/Vector.svg) center / contain no-repeat;
+  background: url(../img/Vector.svg) center / contain no-repeat;
 }
 .breadcrumbs__link {
   font-size: 14px;
@@ -466,7 +466,7 @@ img {
   width: 6px;
   height: 10px;
   line-height: 0;
-  background: url(/img/shevron.png) center / contain no-repeat;
+  background: url(../img/shevron.png) center / contain no-repeat;
 }
 .shop-catalogue {
   margin-bottom: 40px;
