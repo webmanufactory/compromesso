@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>compresso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css" />
+  <link rel="stylesheet" href="./style/normalize.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <main class="main">
+    <header class="header section">
+      <div class="container">
+        <div class="header__row row">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="header-menu">
+              <button class="header-menu__button">
+                <picture class="header-menu__icon">
+                  <source srcset="img/Icon-Hamburger.svg" type="image/svg+xml">
+                  <img src="img/Icon-Hamburger.png" alt="icon">
+                </picture>
+              </button>
+              <div class="header__logo">
+                <a href="index.html" class="header-logo__link">
+                  <picture class="header-logo__icon">
+                    <source srcset="img/logo.svg" type="image/svg+xml">
+                    <img src="img/logo.png" alt="icon">
+                  </picture>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-5">
+            <div class="header-search">
+              <form action="" class="header-search__form">
+                <div class="form-search__input">
+                  <button class="search__button">
+                    <picture class="search-button__icon">
+                      <source srcset="img/search.svg" type="image/svg+xml">
+                      <img src="img/search.png" alt="icon">
+                    </picture>
+                  </button>
+                  <input type="text" name="" id="" class="search__input" placeholder="Поиск">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-header" data-simplebar>
+        <div class="menu-header__header-wrap">
+          <div class="container">
+            <div class="menu-header__header">
+              <h2 class="menu-header__title">Меню</h2>
+              <button class="menu-header__close">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M19.6339 0.366116C20.122 0.854271 20.122 1.64573 19.6339 2.13388L11.7678 10L19.6339 17.8661C20.122 18.3542 20.122 19.1457 19.6339 19.6339C19.1457 20.122 18.3542 20.122 17.8661 19.6339L10 11.7678L2.13391 19.6339C1.64576 20.122 0.854304 20.122 0.36615 19.6339C-0.122005 19.1457 -0.122005 18.3542 0.36615 17.8661L8.23223 10L0.366116 2.13388C-0.122039 1.64573 -0.122039 0.854274 0.366116 0.36612C0.854271 -0.122035 1.64573 -0.122035 2.13388 0.36612L10 8.23224L17.8661 0.366116C18.3543 -0.122039 19.1457 -0.122039 19.6339 0.366116Z"
+                    fill="#667EFF" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <ul class="menu-header__nav">
+            <li class="menu-header__item">
+              <a href="#" class="menu-header__item-link" data-toggle="collapse" data-target="#headerNav-1">
+                <p class="menu-header__item-text">Верхняя одежда <span class="mob-menu__item-counter">(718)</span>
+                </p>
+                <div class="menu-header__item-image">
+                  <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.29 1.29C10.9 0.899998 10.27 0.899998 9.88001 1.29L6.00001 5.17L2.12001 1.29C1.73001 0.899998 1.10001 0.899998 0.710008 1.29C0.320007 1.68 0.320007 2.31 0.710008 2.7L5.30001 7.29C5.69001 7.68 6.32001 7.68 6.71001 7.29L11.3 2.7C11.68 2.32 11.68 1.68 11.29 1.29Z" />
+                  </svg>
+                </div>
+              </a>
+              <ul class="menu-header__subnav collapse" id="headerNav-1">
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Брюки и шорты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Блузки и туники</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Джемперы и кардиганы</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Жакеты и жилеты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Костюмы и комбинезоны</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Униформа и рабочая одежда</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="menu-header__nav">
+            <li class="menu-header__item">
+              <a href="#" class="menu-header__item-link" data-toggle="collapse" data-target="#headerNav-2">
+                <p class="menu-header__item-text">Верхняя одежда <span class="mob-menu__item-counter">(718)</span>
+                </p>
+                <div class="menu-header__item-image">
+                  <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.29 1.29C10.9 0.899998 10.27 0.899998 9.88001 1.29L6.00001 5.17L2.12001 1.29C1.73001 0.899998 1.10001 0.899998 0.710008 1.29C0.320007 1.68 0.320007 2.31 0.710008 2.7L5.30001 7.29C5.69001 7.68 6.32001 7.68 6.71001 7.29L11.3 2.7C11.68 2.32 11.68 1.68 11.29 1.29Z" />
+                  </svg>
+                </div>
+              </a>
+              <ul class="menu-header__subnav collapse" id="headerNav-2">
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Брюки и шорты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Блузки и туники</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Джемперы и кардиганы</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Жакеты и жилеты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Костюмы и комбинезоны</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Униформа и рабочая одежда</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="menu-header__nav">
+            <li class="menu-header__item">
+              <a href="#" class="menu-header__item-link" data-toggle="collapse" data-target="#headerNav-3">
+                <p class="menu-header__item-text">Верхняя одежда <span class="mob-menu__item-counter">(718)</span>
+                </p>
+                <div class="menu-header__item-image">
+                  <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.29 1.29C10.9 0.899998 10.27 0.899998 9.88001 1.29L6.00001 5.17L2.12001 1.29C1.73001 0.899998 1.10001 0.899998 0.710008 1.29C0.320007 1.68 0.320007 2.31 0.710008 2.7L5.30001 7.29C5.69001 7.68 6.32001 7.68 6.71001 7.29L11.3 2.7C11.68 2.32 11.68 1.68 11.29 1.29Z" />
+                  </svg>
+                </div>
+              </a>
+              <ul class="menu-header__subnav collapse" id="headerNav-3">
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Брюки и шорты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Блузки и туники</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Джемперы и кардиганы</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Жакеты и жилеты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Костюмы и комбинезоны</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Униформа и рабочая одежда</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="breadcrumbs">
+      <div class="container">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a href="" class="breadcrumbs__link">Главная</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a href="" class="breadcrumbs__link">Каталоги</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a href="" class="breadcrumbs__link active">Перекресток</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-slider">
+      <div class="container">
+        <div class="title">
+          <h1 class="main-slider__title">Шопинг в Санкт-Петербурге</h1>
+          <p class="main-slider__text">Магазины, каталоги, маркет</p>
+        </div>
+        <div class="slider">
+          <div class="slider__item">
+            <img src="img/slider-item.jpg" alt="" class="slider-item__img">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu">
+      <div class="container">
+        <div class="title">
+          <h2 class="main-title">Магазины и организации Санкт-Петербурга</h2>
+          <span class="main-subtitle">Популярные категории</span>
+        </div>
+      </div>
+      <div class="main-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <div class="main-menu__tab" data-simplebar>
+                <button class="tablinks active" data-tab="1">Верхняя одежда</button>
+                <button class="tablinks" data-tab="2">Строительные материалы</button>
+                <button class="tablinks" data-tab="3">Аренда строительной специальной техники</button>
+                <button class="tablinks" data-tab="4">Строительные материалы</button>
+                <button class="tablinks" data-tab="5">Верхняя одежда</button>
+                <button class="tablinks" data-tab="6">Аренда строительной специальной техники</button>
+                <button class="tablinks" data-tab="7">Верхняя одежда</button>
+                <button class="tablinks" data-tab="8">Строительные материалы</button>
+                <button class="tablinks" data-tab="9">Верхняя одежда</button>
+                <button class="tablinks" data-tab="11">Строительные материалы</button>
+                <button class="tablinks" data-tab="12">Аренда строительной специальной техники</button>
+                <button class="tablinks" data-tab="13">Строительные материалы</button>
+                <button class="tablinks" data-tab="14">Верхняя одежда</button>
+                <button class="tablinks" data-tab="15">Аренда строительной специальной техники</button>
+                <button class="tablinks" data-tab="16">Верхняя одежда</button>
+                <button class="tablinks" data-tab="17">Строительные материалы</button>
+              </div>
+            </div>
+            <div class="col-6 col-md-8">
+              <div class="main-menu__tabcontent active" data-simplebar data-tab-content="1">
+                <div class="row">
+                  <div class="col-12 col-md-6 col-xl-4">
+                    <div class="tabcontent">
+                      <ul class="menu-tabcontent__list">
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                    <div class="tabcontent">
+                      <ul class="menu-tabcontent__list">
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                    <div class="tabcontent">
+                      <ul class="menu-tabcontent__list">
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main-menu__tabcontent" data-simplebar data-tab-content="2">
+                <div class="row">
+                  <div class="col-12 col-md-6 col-xl-4">
+                    <div class="tabcontent">
+                      <ul class="menu-tabcontent__list">
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                    <div class="tabcontent">
+                      <ul class="menu-tabcontent__list">
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Спортивная одежда и обувь</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="" class="menu-tabcontent__link">Магазин джинсовой одежды</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main-menu__tabcontent" data-simplebar data-tab-content="3">
+                <div class="row">
+                  <div class="col-12 col-md-6 col-xl-4">
+                    <div class="tabcontent">
+                      <ul class="menu-tabcontent__list">
+                        <li class="menu-tabcontent__item">
+                          <a href="#" class="menu-tabcontent__link">Магазин головных уборов</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="#" class="menu-tabcontent__link">Салон вечерней одежды</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="#" class="menu-tabcontent__link">Одежда больших размеров</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="#" class="menu-tabcontent__link">Трикотажные изделия</a>
+                        </li>
+                        <li class="menu-tabcontent__item">
+                          <a href="#" class="menu-tabcontent__link">Магазин белья и купальников</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mob-menu">
+        <div class="container">
+          <ul class="mob-menu__nav">
+            <li class="mob-menu__item">
+              <a href="#" class="mob-menu__item-link" data-toggle="collapse" data-target="#subnav-1">
+                <p class="mob-menu__item-text">Верхняя одежда <span class="mob-menu__item-counter">(718)</span></p>
+                <div class="mob-menu__item-image">
+                  <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.29 1.29C10.9 0.899998 10.27 0.899998 9.88001 1.29L6.00001 5.17L2.12001 1.29C1.73001 0.899998 1.10001 0.899998 0.710008 1.29C0.320007 1.68 0.320007 2.31 0.710008 2.7L5.30001 7.29C5.69001 7.68 6.32001 7.68 6.71001 7.29L11.3 2.7C11.68 2.32 11.68 1.68 11.29 1.29Z" />
+                  </svg>
+                </div>
+              </a>
+              <ul class="mob-menu__subnav collapse" id="subnav-1">
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Брюки и шорты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Блузки и туники</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Джемперы и кардиганы</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Жакеты и жилеты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Костюмы и комбинезоны</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Униформа и рабочая одежда</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="mob-menu__nav">
+            <li class="mob-menu__item">
+              <a href="#" class="mob-menu__item-link" data-toggle="collapse" data-target="#subnav-2">
+                <p class="mob-menu__item-text">Верхняя одежда <span class="mob-menu__item-counter">(718)</span></p>
+                <div class="mob-menu__item-image">
+                  <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.29 1.29C10.9 0.899998 10.27 0.899998 9.88001 1.29L6.00001 5.17L2.12001 1.29C1.73001 0.899998 1.10001 0.899998 0.710008 1.29C0.320007 1.68 0.320007 2.31 0.710008 2.7L5.30001 7.29C5.69001 7.68 6.32001 7.68 6.71001 7.29L11.3 2.7C11.68 2.32 11.68 1.68 11.29 1.29Z" />
+                  </svg>
+                </div>
+              </a>
+              <ul class="mob-menu__subnav collapse" id="subnav-2">
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Брюки и шорты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Блузки и туники</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Джемперы и кардиганы</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Жакеты и жилеты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Костюмы и комбинезоны</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Униформа и рабочая одежда</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="mob-menu__nav">
+            <li class="mob-menu__item">
+              <a href="#" class="mob-menu__item-link" data-toggle="collapse" data-target="#subnav-3">
+                <p class="mob-menu__item-text">Верхняя одежда <span class="mob-menu__item-counter">(718)</span></p>
+                <div class="mob-menu__item-image">
+                  <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.29 1.29C10.9 0.899998 10.27 0.899998 9.88001 1.29L6.00001 5.17L2.12001 1.29C1.73001 0.899998 1.10001 0.899998 0.710008 1.29C0.320007 1.68 0.320007 2.31 0.710008 2.7L5.30001 7.29C5.69001 7.68 6.32001 7.68 6.71001 7.29L11.3 2.7C11.68 2.32 11.68 1.68 11.29 1.29Z" />
+                  </svg>
+                </div>
+              </a>
+              <ul class="mob-menu__subnav collapse" id="subnav-3">
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Брюки и шорты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Блузки и туники</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Джемперы и кардиганы</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Жакеты и жилеты</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Костюмы и комбинезоны</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Униформа и рабочая одежда</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="review section">
+      <div class="container">
+        <div class="title">
+          <h2 class="review__title main-title">Магазины и организации Санкт-Петербурга</h2>
+          <span class="review__subtitle main-subtitle">Популярные категории</span>
+        </div>
+        <div class="review__row row">
+          <div class="col-6 col-lg-4">
+            <a href="#" class="review-card__link">
+              <div class="review-card card">
+                <h3 class="review-card__title card__title">ТЦ Ереван Плаза</h3>
+                <span class="review-card__subtitle">21 389 отзывов</span>
+                <div class="rating">
+                  <div class="rating__item">
+                    <picture class="header-menu__icon">
+                      <source srcset="img/stars.svg" type="image/svg+xml">
+                      <img src="img/stars.png" alt="icon">
+                    </picture>
+                  </div>
+                </div>
+                <div class="review-card__image">
+                  <img src="img/review-item.jpg" alt="" class="review-card__img">
+                </div>
+                <p class="review-card__text">Сторонники правильного языка будут доказывать, что нельзя трогать великий и
+                  могучий, а радетели</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-lg-4">
+            <a href="#" class="review-card__link">
+              <div class="review-card card">
+                <h3 class="review-card__title card__title">ТЦ Ереван Плаза</h3>
+                <span class="review-card__subtitle">21 389 отзывов</span>
+                <div class="rating">
+                  <div class="rating__item">
+                    <picture class="header-menu__icon">
+                      <source srcset="img/stars.svg" type="image/svg+xml">
+                      <img src="img/stars.png" alt="icon">
+                    </picture>
+                  </div>
+                </div>
+                <div class="review-card__image">
+                  <img src="img/review-item.jpg" alt="" class="review-card__img">
+                </div>
+                <p class="review-card__text">Сторонники правильного языка будут доказывать, что нельзя трогать великий и
+                  могучий, а радетели</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-lg-4">
+            <a href="#" class="review-card__link">
+              <div class="review-card card">
+                <h3 class="review-card__title card__title">ТЦ Ереван Плаза</h3>
+                <span class="review-card__subtitle">21 389 отзывов</span>
+                <div class="rating">
+                  <div class="rating__item">
+                    <picture class="header-menu__icon">
+                      <source srcset="img/stars.svg" type="image/svg+xml">
+                      <img src="img/stars.png" alt="icon">
+                    </picture>
+                  </div>
+                </div>
+                <div class="review-card__image">
+                  <img src="img/review-item.jpg" alt="" class="review-card__img">
+                </div>
+                <p class="review-card__text">Сторонники правильного языка будут доказывать, что нельзя трогать великий и
+                  могучий, а радетели</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-lg-4">
+            <a href="#" class="review-card__link">
+              <div class="review-card card">
+                <h3 class="review-card__title card__title">ТЦ Ереван Плаза</h3>
+                <span class="review-card__subtitle">21 389 отзывов</span>
+                <div class="rating">
+                  <div class="rating__item">
+                    <picture class="header-menu__icon">
+                      <source srcset="img/stars.svg" type="image/svg+xml">
+                      <img src="img/stars.png" alt="icon">
+                    </picture>
+                  </div>
+                </div>
+                <div class="review-card__image">
+                  <img src="img/review-item.jpg" alt="" class="review-card__img">
+                </div>
+                <p class="review-card__text">Сторонники правильного языка будут доказывать, что нельзя трогать великий и
+                  могучий, а радетели</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="button__row">
+          <button class="main-button">Смотреть все отзывы</button>
+        </div>
+      </div>
+    </div>
+    <div class="city section">
+      <div class="container">
+        <div class="title">
+          <h2 class="main-title">Торговые центры Санкт-Петербурга</h2>
+          <span class="main-subtitle">582 торговых центра</span>
+        </div>
+        <div class="city-list__row row">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="city-list__col">
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">A</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-sublist__subitem">
+                      <a href="#" class="city-sublist__link">Avenue Southwest</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">C</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Columbus</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">D</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Dream House</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">O</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Обувной центр Персей</a>
+                    </li>
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Обувной центр Персей</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="city-list__col">
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">A</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-sublist__subitem">
+                      <a href="#" class="city-sublist__link">Avenue Southwest</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">C</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Columbus</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">D</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Dream House</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">O</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Обувной центр Персей</a>
+                    </li>
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Обувной центр Персей</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="city-list__col">
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">A</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-sublist__subitem">
+                      <a href="#" class="city-sublist__link">Avenue Southwest</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">C</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Columbus</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">D</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Dream House</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">O</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Обувной центр Персей</a>
+                    </li>
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Обувной центр Персей</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="city-list__col">
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">A</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-sublist__subitem">
+                      <a href="#" class="city-sublist__link">Avenue Southwest</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">C</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Columbus</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">D</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Dream House</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="city-list">
+                <li class="city-list__item city-list__title">O</li>
+                <li class="city-list__item">
+                  <ul class="city-sublist">
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Обувной центр Персей</a>
+                    </li>
+                    <li class="city-list__subitem">
+                      <a href="#" class="city-sublist__link">Обувной центр Персей</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="button__row">
+          <button class="main-button">Смотреть все отзывы</button>
+        </div>
+      </div>
+    </div>
+    <div class="categories section">
+      <div class="container">
+        <div class="title">
+          <h2 class="main-title">Магазины и организации Санкт-Петербурга</h2>
+          <span class="main-subtitle">Популярные категории</span>
+        </div>
+        <div class="categories__row row">
+          <div class="col-6 col-lg-4">
+            <div class="categories__card card">
+              <h3 class="categories__title card__title">Бытовая техника и электроника</h3>
+              <div class="categories__image">
+                <img src="img/categories-item.png" alt="" class="categories__img">
+              </div>
+              <ul class="categories-list__links">
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link categories-list__link-more">Ещё</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="categories__card card">
+              <h3 class="categories__title card__title">Бытовая техника и электроника</h3>
+              <div class="categories__image">
+                <img src="img/categories-item.png" alt="" class="categories__img">
+              </div>
+              <ul class="categories-list__links">
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link categories-list__link-more">Ещё</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="categories__card card">
+              <h3 class="categories__title card__title">Бытовая техника и электроника</h3>
+              <div class="categories__image">
+                <img src="img/categories-item.png" alt="" class="categories__img">
+              </div>
+              <ul class="categories-list__links">
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link categories-list__link-more">Ещё</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="categories__card card">
+              <h3 class="categories__title card__title">Бытовая техника и электроника</h3>
+              <div class="categories__image">
+                <img src="img/categories-item.png" alt="" class="categories__img">
+              </div>
+              <ul class="categories-list__links">
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link">Телевизоры</a>
+                </li>
+                <li class="categories-lisr__item">
+                  <a href="#" class="categories-list__link categories-list__link-more">Ещё</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="button__row">
+          <button class="main-button">Смотреть все отзывы</button>
+        </div>
+      </div>
+    </div>
+    <div class="shop-catalogue">
+      <div class="container">
+        <div class="title">
+          <h2 class="main-title">Каталоги магазинов и сетей Санкт-Петербурга</h2>
+          <span class="main-subtitle">582 торговых центра</span>
+        </div>
+        <div class="shop-catalogue__row row">
+          <div class="shop-catalogue__col col-6 col-lg-4">
+            <div class="shop-catalogue__card card">
+              <a href="#" class="shop-catalogue__card-link">
+                <h3 class="shop-catalogue__title card__title">Каталог Ашан</h3>
+                <span class="shop-catalogue__subtitle">(31 ноября - 11 декабря 2020 г)</span>
+                <div class="shop-catalogue__image">
+                  <img src="img/shop-catalogue-item.png" alt="" class="shop-catalogue__img">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="shop-catalogue__col col-6 col-lg-4">
+            <div class="shop-catalogue__card card">
+              <a href="#" class="shop-catalogue__card-link">
+                <h3 class="shop-catalogue__title card__title">Каталог Ашан</h3>
+                <span class="shop-catalogue__subtitle">(31 ноября - 11 декабря 2020 г)</span>
+                <div class="shop-catalogue__image">
+                  <img src="img/shop-catalogue-item.png" alt="" class="shop-catalogue__img">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="shop-catalogue__col col-6 col-lg-4">
+            <div class="shop-catalogue__card card">
+              <a href="#" class="shop-catalogue__card-link">
+                <h3 class="shop-catalogue__title card__title">Каталог Ашан Каталог Ашан Каталог Ашан</h3>
+                <span class="shop-catalogue__subtitle">(31 ноября - 11 декабря 2020 г)</span>
+                <div class="shop-catalogue__image">
+                  <img src="img/shop-catalogue-item.png" alt="" class="shop-catalogue__img">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="shop-catalogue__col col-6 col-lg-4">
+            <div class="shop-catalogue__card card">
+              <a href="#" class="shop-catalogue__card-link">
+                <h3 class="shop-catalogue__title card__title">Каталог Ашан</h3>
+                <span class="shop-catalogue__subtitle">(31 ноября - 11 декабря 2020 г)</span>
+                <div class="shop-catalogue__image">
+                  <img src="img/shop-catalogue-item.png" alt="" class="shop-catalogue__img">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="button__row">
+          <button class="main-button">Смотреть все отзывы</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-top__row row">
+            <div class="col-12 col-lg-4">
+              <div class="footer-top__logo">
+                <picture class="footer-logo__icon">
+                  <source srcset="img/logo-white.svg" type="image/svg+xml">
+                  <img src="img/logo-white.png" alt="icon">
+                </picture>
+              </div>
+            </div>
+            <div class="col-6 col-lg-4">
+              <ul class="footer-top__links">
+                <li class="footer-links__item">
+                  <a href="#" class="footer-item__link">Бренды</a>
+                </li>
+                <li class="footer-links__item">
+                  <a href="#" class="footer-item__link">Каталоги</a>
+                </li>
+                <li class="footer-links__item">
+                  <a href="#" class="footer-item__link">ТЦ</a>
+                </li>
+                <li class="footer-links__item">
+                  <a href="#" class="footer-item__link">Маркет</a>
+                </li>
+                <li class="footer-links__item">
+                  <a href="#" class="footer-item__link">Статьи</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-4">
+              <ul class="footer-top__links">
+                <li class="footer-links__item">
+                  <a href="#" class="footer-item__link">О проекте</a>
+                </li>
+                <li class="footer-links__item">
+                  <a href="#" class="footer-item__link">Правообладателям</a>
+                </li>
+                <li class="footer-links__item">
+                  <a href="#" class="footer-item__link">Соглашение</a>
+                </li>
+                <li class="footer-links__item">
+                  <a href="#" class="footer-item__link">Руководство пользователя</a>
+                </li>
+                <li class="footer-links__item">
+                  <a href="#" class="footer-item__link">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="footer-bottom__copyright">© 2009 – 2020 Compromesso.ru</p>
+          <p class="footer-bottom__text">Полное или частичное копирование материалов сайта разрешено только при
+            обязательном указании<br class="break"> автора и прямой гиперссылки
+            на <a href="http://www.compromesso.ru" class="footer-bottom__link">http://www.compromesso.ru/</a></p>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
