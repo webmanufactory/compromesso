@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body.active {
@@ -82,7 +82,7 @@ img {
 }
 
 .menu-header__title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   color: #0C0D0D;
 }
@@ -182,7 +182,7 @@ img {
 .main-slider__title {
   margin-top: 0;
   margin-bottom: 15px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: calc(28px + 8 * ((100vw - 360px) / (1920 - 360)));
   color: #0C0D0D;
 }
@@ -212,7 +212,7 @@ img {
 .main-title {
   margin-top: 0;
   margin-bottom: 15px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: calc(20px + 8 * ((100vw - 360px) / (1920 - 360)));
   color: #0C0D0D;
 }
@@ -220,7 +220,7 @@ img {
 .main-subtitle {
   margin-top: 0;
   display: block;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   font-size: calc(14px + 2 * ((100vw - 360px) / (1920 - 360)));
   color: #A4A5A8;
@@ -246,7 +246,7 @@ img {
 .tablinks {
   padding: 12px 0;
   width: 100%;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 12px;
   line-height: 1.3;
   color: #0C0D0D;
@@ -317,7 +317,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
   color: #0C0D0D;
 }
@@ -364,7 +364,7 @@ img {
 }
 
 .subnav__item {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .subnav__link {
@@ -459,7 +459,7 @@ img {
   margin-bottom: 50px;
   padding: 10px;
   min-width: 360px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: calc(14px + 2 * ((100vw - 360px) / (1920 - 360)));
   color: #0029FF;
   text-align: center;
@@ -472,8 +472,9 @@ img {
   margin-bottom: 65px;
 }
 
-.city-list__row {
+.city-list__wrap {
   margin-bottom: 50px;
+  overflow-x: hidden;
 }
 
 .city-list__col {
@@ -572,6 +573,7 @@ img {
 
 .shop-catalogue__col {
   margin-bottom: 30px;
+  height: auto;
 }
 
 .shop-catalogue__card {
@@ -581,6 +583,10 @@ img {
 
 .shop-catalogue__card-link {
   padding: calc(15px + 9 * ((100vw - 360px) / (1920 - 360)));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .shop-catalogue__card-link:hover {
@@ -701,8 +707,12 @@ img {
     display: block;
   }
 
+  .city-list__wrap {
+    max-height: 195px;
+  }
+
   .card__title {
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 8px;
   }
 

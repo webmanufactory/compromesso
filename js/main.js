@@ -4,6 +4,8 @@ let openBtn = document.querySelectorAll(".header-menu__button");
 let closeBtn = document.querySelectorAll(".menu-header__close");
 let menuHeader = document.querySelector(".menu-header");
 let body = document.querySelector("body");
+let sliderRow = document.querySelectorAll(".slider__row");
+let swiperSlide = document.querySelectorAll(".swiper-slide");
 
 window.onload = function () {
   for (let i = 0; i < tabNavs.length; i++) {
@@ -24,7 +26,29 @@ window.onload = function () {
       };
     });
   };
-  if (window.innerWidth < 547) {
+
+  if (window.matchMedia("(min-width: 769px)").matches) {
+    for (let i = 0; i < swiperSlide.length; i++) {
+      swiperSlide[i].classList.remove("swiper-slide");
+    }
+  }
+
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    for (let i = 0; i < sliderRow.length; i++) {
+      let row = sliderRow[i].querySelector(".row");
+      row.classList.remove("row");
+      row.classList.add("swiper-wrapper");
+      new Swiper(".slider__row", {
+        slidesPerView: 3,
+        breakpoints: {
+          475: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    }
+  }
+  if (window.matchMedia("(max-width: 546px)").matches) {
     for (let i = 0; i < openBtn.length; i++) {
       openBtn[i].addEventListener("click", function (e) {
         e.preventDefault();
