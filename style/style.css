@@ -4,7 +4,9 @@ body {
 }
 
 body.active {
+  padding-right: 15px;
   position: fixed;
+  width: 100vw;
 }
 
 img {
@@ -68,6 +70,7 @@ img {
   top: 0;
   left: 0;
   transition: left .3s ease;
+  z-index: 2;
 }
 
 .menu-header__header-wrap {
@@ -390,9 +393,9 @@ img {
 
 .card__title {
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
   font-weight: 700;
-  font-size: calc(14px + 6 * ((100vw - 360px) / (1920 - 360)));
+  font-size: calc(14px + 2 * ((100vw - 360px) / (1920 - 360)));
   color: #0C0D0D;
 }
 
@@ -414,10 +417,10 @@ img {
 }
 
 .review-card {
-  padding-top: calc(16px + 8 * ((100vw - 360px) / (1920 - 360)));
-  padding-bottom: calc(16px + 8 * ((100vw - 360px) / (1920 - 360)));
-  padding-left: calc(16px + 24 * ((100vw - 360px) / (1920 - 360)));
-  padding-right: calc(16px + 24 * ((100vw - 360px) / (1920 - 360)));
+  padding-top: calc(7px + 8 * ((100vw - 360px) / (1920 - 360)));
+  padding-bottom: calc(7px + 8 * ((100vw - 360px) / (1920 - 360)));
+  padding-left: calc(15px + 10 * ((100vw - 360px) / (1920 - 360)));
+  padding-right: calc(15px + 10 * ((100vw - 360px) / (1920 - 360)));
 }
 
 .review-card__link:hover {
@@ -445,7 +448,7 @@ img {
 
 .review-card__text {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   color: #0C0D0D;
 }
 
@@ -675,6 +678,18 @@ img {
 
 .simplebar-scrollbar.simplebar-visible:before {
   opacity: 1;
+}
+
+.slider__row {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1280px) {
+
+  .col-card {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
 }
 
 @media screen and (max-width: 576px) {

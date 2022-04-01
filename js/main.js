@@ -27,28 +27,15 @@ window.onload = function () {
     });
   };
 
-  if (window.matchMedia("(min-width: 769px)").matches) {
-    for (let i = 0; i < swiperSlide.length; i++) {
-      swiperSlide[i].classList.remove("swiper-slide");
-    }
+  for (let i = 0; i < sliderRow.length; i++) {
+    let row = sliderRow[i].querySelector(".row");
+    row.classList.remove("row");
+    row.classList.add("swiper-wrapper");
+    new Swiper(".slider__row", {
+      slidesPerView: "auto",
+    });
   }
-
   if (window.matchMedia("(max-width: 768px)").matches) {
-    for (let i = 0; i < sliderRow.length; i++) {
-      let row = sliderRow[i].querySelector(".row");
-      row.classList.remove("row");
-      row.classList.add("swiper-wrapper");
-      new Swiper(".slider__row", {
-        slidesPerView: 3,
-        breakpoints: {
-          475: {
-            slidesPerView: 2,
-          },
-        },
-      });
-    }
-  }
-  if (window.matchMedia("(max-width: 546px)").matches) {
     for (let i = 0; i < openBtn.length; i++) {
       openBtn[i].addEventListener("click", function (e) {
         e.preventDefault();
