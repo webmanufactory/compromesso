@@ -785,6 +785,10 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+  body.active {
+    padding-right: 0;
+  }
+
   .header-menu {
     margin-bottom: 25px;
   }
