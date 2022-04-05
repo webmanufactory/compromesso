@@ -15,7 +15,7 @@ window.onload = function () {
       e.preventDefault();
     })
   }
-  if (window.matchMedia("(min-width: 769px)").matches) {
+  if (window.matchMedia("(min-width: 768px)").matches) {
     const mainBar = new SimpleBar(document.getElementById('main-menu'));
 
     for (let i = 0; i < menuItemBtn.length; i++) {
