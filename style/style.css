@@ -740,6 +740,12 @@ img {
     justify-content: space-between;
   }
 
+  .main-menu__item-link.col-md-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
   .main-menu__item-button {
     padding-right: 15px;
     border-bottom: none;
