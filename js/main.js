@@ -15,7 +15,7 @@ window.onload = function () {
       e.preventDefault();
     })
   }
-  if (window.matchMedia("(min-width: 768px)").matches) {
+  if (window.matchMedia("(min-width: 767px)").matches) {
     const mainBar = new SimpleBar(document.getElementById('main-menu'));
 
     for (let i = 0; i < menuItemBtn.length; i++) {
@@ -54,7 +54,7 @@ window.onload = function () {
     });
   }
 
-  if (window.matchMedia("(max-width: 768px)").matches) {
+  if (window.matchMedia("(max-width: 767px)").matches) {
     for (let i = 0; i < menuItemLink.length; i++) {
       menuItemBtn[i].classList.remove("active");
     }
