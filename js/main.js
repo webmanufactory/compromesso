@@ -45,14 +45,6 @@ window.onload = function () {
     };
   }
 
-  window.onresize = function (event) {
-    if (document.documentElement.clientWidth > 768) {
-      location.reload();
-    } else if (document.documentElement.clientWidth < 768) {
-      location.reload();
-    }
-  };
-
   for (let i = 0; i < sliderRow.length; i++) {
     let row = sliderRow[i].querySelector(".row");
     row.classList.remove("row");
@@ -91,3 +83,10 @@ window.onload = function () {
     }
   };
 }
+var oldWidth = window.innerWidth;
+window.onresize = function () {
+  var newWidth = window.innerWidth;
+  if (newWidth != oldWidth) {
+    location.reload()
+  }
+};

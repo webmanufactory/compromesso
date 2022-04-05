@@ -209,7 +209,7 @@ img {
 }
 
 .title {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .main-title {
@@ -277,12 +277,19 @@ img {
   text-decoration: none;
 }
 
-.main-menu__item-text {
-  margin-top: 10px;
-  margin-bottom: 0;
-  padding-bottom: 10px;
+.main-menu__item-button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 1 100%;
   border-bottom: 1px solid #CCD4FF;
   cursor: pointer;
+}
+
+.main-menu__item-text {
+  margin-bottom: 0;
 }
 
 .main-menu__item-text.active,
@@ -290,12 +297,12 @@ img {
   color: #0029FF;
 }
 
-.main-menu__item-image,
-.main-menu__item-counter {
+.main-menu__item-image {
   display: none;
 }
 
 .main-menu__item-counter {
+  margin-left: 10px;
   font-weight: 500;
   font-size: 12px;
   color: #BEBFC1;
@@ -341,6 +348,7 @@ img {
 }
 
 .menu-header__nav {
+  margin: 0;
   padding-inline: 0;
   list-style: none;
 }
@@ -388,8 +396,9 @@ img {
 
 .card {
   margin-bottom: 30px;
+  height: 100%;
   background: #FFFFFF;
-  box-shadow: 0px 4px 20px rgba(75, 76, 78, 0.1);
+  box-shadow: 0px 4px 15px rgba(75, 76, 78, 0.1);
   border: none;
   border-radius: 15px;
 }
@@ -400,6 +409,13 @@ img {
   font-weight: 700;
   font-size: calc(14px + 2 * ((100vw - 360px) / (1920 - 360)));
   color: #0C0D0D;
+}
+
+.card__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .review {
@@ -577,22 +593,13 @@ img {
   margin-bottom: 20px;
 }
 
-.shop-catalogue__col {
+.card__col {
   margin-bottom: 30px;
   height: auto;
 }
 
-.shop-catalogue__card {
-  margin-bottom: 0;
-  height: 100%;
-}
-
 .shop-catalogue__card-link {
   padding: calc(15px + 9 * ((100vw - 360px) / (1920 - 360)));
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
 }
 
 .shop-catalogue__card-link:hover {
@@ -684,12 +691,13 @@ img {
 }
 
 .slider__row {
+  padding-top: 15px;
   overflow: hidden;
 }
 
 @media screen and (min-width: 1280px) {
 
-  .col-card {
+  .card__col {
     flex: 0 0 20%;
     max-width: 20%;
   }
@@ -712,6 +720,11 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .main-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .main-menu__wrap {
     position: initial;
     max-height: initial;
@@ -727,7 +740,8 @@ img {
     justify-content: space-between;
   }
 
-  .main-menu__item-text {
+  .main-menu__item-button {
+    padding-right: 15px;
     border-bottom: none;
   }
 
@@ -756,6 +770,11 @@ img {
   .subnav__list {
     display: block;
     padding-inline-start: 15px;
+  }
+
+  .card__col {
+    padding-left: 8px;
+    padding-right: 8px;
   }
 }
 
